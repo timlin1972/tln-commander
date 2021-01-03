@@ -1,4 +1,12 @@
 {
+  "Commander": "指揮官",
+  "EPTALCA": "錯誤! 請稍後再試或請聯絡系統管理員.",
+  "Password": "密碼",
+  "PETP": "請輸入使用者密碼",
+  "PETU": "請輸入使用者名稱",
+  "Please wait...": "請稍候...",
+  "Required": "必須",
+  "Sign in": "登入",
   "Sign In": "登入",
   "Username": "使用者名稱"
 }

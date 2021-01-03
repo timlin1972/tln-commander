@@ -2,12 +2,12 @@ import React from 'react';
 import { render } from "react-dom";
 
 import { Provider } from "react-redux";
-import store from "./redux/store";
 
-import { ApolloProvider } from '@apollo/react-hooks';
+import { ApolloProvider } from "@apollo/client";
 
 import '../tln-i18n-react';
 import client from '../tln-graphql-client';
+import store from "./state/reducers";
 
 import App from './App';
 

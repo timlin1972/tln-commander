@@ -1,8 +1,10 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
+import { useTranslation } from 'react-i18next';
 
 const Main = (props) => {
-  return <h1>Main</h1>;
+  const { t } = useTranslation();
+
+  return <h1>{t('App')}</h1>;
 };
 
 export default (Main);
